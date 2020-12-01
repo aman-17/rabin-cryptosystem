@@ -2,7 +2,7 @@
 import prime
 
 # encryption function
-# plaintext is a 224-bit number
+
 def encryption(plaintext, n):
     # c = m^2 mod n
     plaintext = padding(plaintext)
